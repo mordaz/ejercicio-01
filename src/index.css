@@ -10,8 +10,13 @@ button{
 }
 h3{
     text-align: center;
+    padding: 10px;
 }
 /* Clase clearFix para programar los elementos flotantes del html */
+.menu{
+    background-color: slategrey;
+    text-align: center;
+}
 .clearfix{
     clear: both;
     float: none;

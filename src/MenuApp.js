@@ -53,11 +53,11 @@ const MenuApp = ( { setHabitaciones } ) => {
         });
     }
 
-    return (<>
+    return (<div className = 'menu' >
     <button onClick={ (e) => { onClickAgregar(e) }} > Agregar </button> 
     <button onClick={ (e) => { onClickTiempo(e) }} > Incrementar Tiempo </button> 
     <button onClick={ (e) => { onClickLimpiar(e) }} > Limpiar </button> 
-    </>);
+    </div>);
 }
 
 //usando proptypes declaramos las properties que son obligatorias y su tipo
